@@ -1,18 +1,3 @@
-;;; squirrel-mode.el --- mode for editing Squirrel code
-
-;; Author: Hideaki Takei
-;; Created: Dec 2008
-;; Keywords: languages
-
-;;; Commentary:
-
-;; Provides fairly minimal font-lock and indentation support for
-;; editing Squirrel code.
-
-
-;;; Code:
-
-
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.nut\\'" . squirrel-mode))
 
